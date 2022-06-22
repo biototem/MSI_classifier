@@ -209,9 +209,9 @@ num_classes：the number of categories
 save_classifier: Keep the last sofmax layer for classification or not，if False means used to feature extraction.
 img_height：width of input images
 img_width：height of input images
-pretrained：是否是预训练权重
-parallel：是否用nn.DataParallel包装模型
-verbose：是否打印模型结构
+pretrained：load pretrain model weight or not
+parallel：encapsulate model with torch.nn.DataParallelor class or not
+verbose：show the whole structure of model or not
 """
 model = get_pretrained_model(model_name="tf_efficientnet_b7_ns",
                              model_weight_path=None,
