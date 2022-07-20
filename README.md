@@ -25,3 +25,5 @@ This directory provides training and testing scripts of colorectal cancer predic
 ## MIL_method
 
 This directory provides training and testing scripts of MIL & naive method  for microsatellite instability predicting in CRC histology. You can see more details in **./MIL_method/README.md**.
+
+# For academic research use only, please contact us at info@bio-totem for commercial use. 
